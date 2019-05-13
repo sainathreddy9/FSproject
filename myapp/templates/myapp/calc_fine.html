@@ -1,0 +1,46 @@
+{% extends "pages/layouts/base.html" %}
+
+{% load staticfiles %}
+{% block content %}
+{% include "pages/layouts/form-body.jsp" %}
+<center>
+    <form action="/calc_fine/" method="post">
+		<div id="simpleBox">
+			<h2 id="heading">Enter the following details </h2>
+
+			<table id="textAlign">
+				<tr>
+					<td>Vehicle Number &nbsp;&nbsp;&nbsp;<font color="red">*</font></td>
+                    <td><input type ="text" name="Vehicle Number "></td>
+
+				</tr>
+
+				<tr>
+					<td>Payment &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">*</font></td>
+                     <td><select name="location">
+                        <option value="0" selected> Payment</option>
+                        <option value="1">Full Payment</option>
+                        <option value="2">Half Payment</option>
+                    </select>
+                    </td>
+				</tr>
+                 <tr>
+                    <td>
+                        <input type="submit" value="Submit"
+				class="specialButton" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Violation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">*</font></td>
+                    <td><input type ="text" name="Vehicle Number " readonly></td>
+                </tr>
+			</table>
+			<br />
+			<input type="submit" value="Submit"
+				class="specialButton" />
+		</div>
+  </form>
+</center>
+{% include "pages/layouts/footer.jsp" %}
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends "pages/layouts/base.html" %}
+
+{% load staticfiles %}
+{% block content %}
+{% include "pages/layouts/form-body.jsp" %}
+<center>
+ <form action="/loginSubmit/" method="post">
+	 {% csrf_token%}
+		<div id="simpleBox">
+			<h4><font color="red">{{ message}}</font></h4>
+			<h2 id="heading">Login with your credentials</h2>
+
+			<table id="textAlign">
+				<tr>
+					<td>Login ID &nbsp;&nbsp;<font color="red">*</font></td>
+                    <td><input type ="text" name="username"></td>
+
+				</tr>
+				<tr>
+					<td>Password <font color="red">*</font></td>
+                    <td><input type="password" name="password" ></td>
+
+				</tr>
+			</table>
+			<br />
+			<input type ="checkbox" name="remember" >
+			Remember me. <br /> <br />
+			<input type="submit" value="Login"
+				class="specialButton" />
+			<a href="{% url 'signup' %}">Sign Up</a>
+
+		</div>
+  </form>
+
+</center>
+{% include "pages/layouts/footer.jsp" %}
+{% endblock %}

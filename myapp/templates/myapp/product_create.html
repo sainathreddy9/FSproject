@@ -1,0 +1,20 @@
+{% include "pages/layouts/base.html" %}
+
+{% load staticfiles %}
+{% block content %}
+{% include "pages/layouts/form-body.jsp" %}
+	<center>
+		<form action="/productresult/" method="post">
+			{% csrf_token%}
+			<table>
+
+			<tr><td>Title:</td><td> <input type="text" name="title"></td></tr>
+			<tr><td>Description: </td><td><input type="text" name="description"></td></tr>
+			<tr><td>Price: </td><td><input type="text" name="price"></td></tr>
+			<tr><td><input type="submit" value="Save"/></td><td></td></tr>
+
+			</table>
+		</form>
+	</center>
+{% include "pages/layouts/footer.jsp" %}
+{% endblock %}

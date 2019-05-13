@@ -1,0 +1,31 @@
+{% extends "pages/layouts/base.html" %}
+
+{% load staticfiles %}
+{% block content %}
+{% include "pages/layouts/form-body.jsp" %}
+<center> <form action="/clear_fine.html" method="get">
+    <table id="ahome">
+        <tr>
+            <td align="center">
+                <input type="submit"  value="    Add Fines   "  class="specialButton" formaction="/add_fine"   />
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <input type="submit" value="   Clear Fines  " class="specialButton" formaction="/clear_fine"   />
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <input type="submit" value="Look for Fines" class="specialButton" formaction="/fine_look"   />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="   Total Fines  " class="specialButton" formaction="/calc"  />
+            </td>
+        </tr>
+    </table></form>
+</center>
+{% include "pages/layouts/footer.jsp" %}
+{% endblock %}

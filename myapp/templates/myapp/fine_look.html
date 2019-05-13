@@ -1,0 +1,28 @@
+{% extends "pages/layouts/base.html" %}
+
+{% load staticfiles %}
+{% block content %}
+{% include "pages/layouts/form-body.jsp" %}
+<center>
+    <form action="/add_fine/" method="post">
+		<div id="simpleBox">
+			<h2 id="heading">Enter the following details </h2>
+
+			<table id="textAlign">
+				<tr>
+					<td>Vehicle Number &nbsp;&nbsp;<font color="red">*</font></td>
+                    <td><input type ="text" name="Vehicle Number "></td>
+
+				</tr>
+                <tr>
+
+                </tr>
+            </table>
+			<br />
+			<input type="submit" value="Submit"
+				class="specialButton" />
+        </div>
+  </form>
+</center>
+{% include "pages/layouts/footer.jsp" %}
+{% endblock %}
