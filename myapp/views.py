@@ -196,6 +196,8 @@ def aloginSubmit(request, metadata=None, **kwargs):
                 print("Login is Success")
                 loginStatus = True
     if (loginStatus):
+        ##request.session['username'] = username
+        request.session['role'] = 'admin'
         return render(request, "myapp/ahome.html")
     else:
         context = {"message": "Invalid Username or Password."}
@@ -210,7 +212,14 @@ def chome(request, *args, **kwargs):
     return render(request, "myapp/chome.html")
 
 def add_fine(request, *args, **kwargs):
-    return render(request, "myapp/add_fine.html")
+    ##username = request.session['username']
+    role = ''
+    if(request.session.has_key('role')):
+        role = request.session['role']
+    if(role == 'admin'):
+        return render(request, "myapp/add_fine.html")
+    else:
+        return render(request, "myapp/alogin.html")
 
 def payment(request, *args, **kwargs):
     return render(request, "myapp/payment.html")

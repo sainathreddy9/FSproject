@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="669d4889-7571-43a9-b6b6-19bc7b845074" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/vehicles/7309.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/vehicles/7310.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/violation.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/templates/myapp/payment.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/static/images/Safety1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/static/images/Safety2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/static/images/Safety3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/static/images/base1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/static/images/logo2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/static/images/maintraffic1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/static/images/payment.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/static/images/speed_limits.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/asignup.txt" afterPath="$PROJECT_DIR$/data/asignup.txt" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/myapp/forms.py" afterPath="$PROJECT_DIR$/myapp/forms.py" />
-      <change beforePath="$PROJECT_DIR$/myapp/templates/myapp/add_fine.html" afterPath="$PROJECT_DIR$/myapp/templates/myapp/add_fine.html" />
-      <change beforePath="$PROJECT_DIR$/myapp/templates/myapp/ahome.html" afterPath="$PROJECT_DIR$/myapp/templates/myapp/ahome.html" />
-      <change beforePath="$PROJECT_DIR$/myapp/templates/myapp/alogin.html" afterPath="$PROJECT_DIR$/myapp/templates/myapp/alogin.html" />
-      <change beforePath="$PROJECT_DIR$/myapp/templates/myapp/calc_fine.html" afterPath="$PROJECT_DIR$/myapp/templates/myapp/calc_fine.html" />
-      <change beforePath="$PROJECT_DIR$/myapp/templates/myapp/chome.html" afterPath="$PROJECT_DIR$/myapp/templates/myapp/chome.html" />
-      <change beforePath="$PROJECT_DIR$/myapp/templates/myapp/clear_fine.html" afterPath="$PROJECT_DIR$/myapp/templates/myapp/clear_fine.html" />
-      <change beforePath="$PROJECT_DIR$/myapp/urls.py" afterPath="$PROJECT_DIR$/myapp/urls.py" />
       <change beforePath="$PROJECT_DIR$/myapp/views.py" afterPath="$PROJECT_DIR$/myapp/views.py" />
-      <change beforePath="$PROJECT_DIR$/pages/static/images/Logo.png" afterPath="$PROJECT_DIR$/pages/static/images/Logo.png" />
-      <change beforePath="$PROJECT_DIR$/pages/templates/pages/about.html" afterPath="$PROJECT_DIR$/pages/templates/pages/about.html" />
-      <change beforePath="$PROJECT_DIR$/pages/templates/pages/layouts/footer.jsp" afterPath="$PROJECT_DIR$/pages/templates/pages/layouts/footer.jsp" />
-      <change beforePath="$PROJECT_DIR$/pages/templates/pages/layouts/form-body.jsp" afterPath="$PROJECT_DIR$/pages/templates/pages/layouts/form-body.jsp" />
-      <change beforePath="$PROJECT_DIR$/pages/templates/pages/layouts/home-body.jsp" afterPath="$PROJECT_DIR$/pages/templates/pages/layouts/home-body.jsp" />
-      <change beforePath="$PROJECT_DIR$/pages/templates/pages/layouts/menu.jsp" afterPath="$PROJECT_DIR$/pages/templates/pages/layouts/menu.jsp" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,8 +11,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="198" column="10" lean-forward="false" selection-start-line="198" selection-start-column="10" selection-end-line="198" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>alo</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/myapp/views.py" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="37" />
@@ -69,6 +69,11 @@
             <path>
               <item name="FSproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="FSproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FSproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FSproject" type="462c0819:PsiDirectoryNode" />
+              <item name="myapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -111,6 +116,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -119,7 +125,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35005453" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -137,5 +143,17 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/myapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="198" column="10" lean-forward="false" selection-start-line="198" selection-start-column="10" selection-end-line="198" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
