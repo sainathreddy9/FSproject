@@ -13,7 +13,8 @@ urlpatterns = [
     path('chome/', views.chome, name='chome'),
     path('ahome/', views.ahome, name='ahome'),
     path('add_fine/', views.add_fine, name='add_fine'),
-    path('clear_fine/', views.clear_fine, name='clear_fine'),
+    path('add_fineSubmit/', views.add_fineSubmit, name='add_fineSubmit'),
+    path('payment/', views.payment, name='payment'),
     path('fine_look/', views.fine_look, name='fine_look'),
     path('calc/', views.calc_fine, name='calc_fine'),
 ]

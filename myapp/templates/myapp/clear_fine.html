@@ -5,7 +5,8 @@
 {% include "pages/layouts/form-body.jsp" %}
 <center>
      <form action="/clear_fine/" method="post">
-		<div id="simpleBox">
+		{% csrf_token%}
+         <div id="simpleBox">
 			<h2 id="heading">Enter the following details </h2>
 
 			<table id="textAlign">

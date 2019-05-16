@@ -11,7 +11,7 @@
 	<body class="verticalLine">
 
 	<div class="Head1">
-		<img id="logo" alt="Logo" src="{% static 'images/Logo.png' %}" height="40px" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<img id="logo" alt="Logo" src="{% static 'images/logo2.png' %}" height="40px" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		<h1 class="welcomeH1">Traffic Fines</h1>
 	</div>
 

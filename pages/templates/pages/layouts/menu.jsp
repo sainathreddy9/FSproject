@@ -41,7 +41,7 @@ fieldset{
 
 <div class="topnav">
   <a class="active" href="mainPage.jsp">Home</a>
-  <a href="loginMain.jsp">News</a>
+
   <a href="mainPage.jsp">Contact</a>
   <a href="attendance.jsp">About</a>
   <a href="loginMain.jsp">Login</a>

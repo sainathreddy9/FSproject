@@ -4,14 +4,16 @@
 {% block content %}
 {% include "pages/layouts/form-body.jsp" %}
 <center>
-    <form action="/add_fine/" method="post">
+    <form name="add_fineForm" action="/add_fineSubmit/" method="post">
+        {% csrf_token%}
 		<div id="simpleBox">
+            <h4><font color="red">{{ message}}</font></h4>
 			<h2 id="heading">Enter the following details </h2>
 
 			<table id="textAlign">
 				<tr>
 					<td>Vehicle Number &nbsp;&nbsp;<font color="red">*</font></td>
-                    <td><input type ="text" name="Vehicle Number "></td>
+                    <td><input type ="text" name="vehicleNumber"></td>
 
 				</tr>
 				<tr>
@@ -41,6 +43,11 @@
                     </select>
                     </td>
                 </tr>
+                <tr>
+					<td>Fine Amount &nbsp;&nbsp;<font color="red">*</font></td>
+                    <td><input type ="text" name="amount"></td>
+
+				</tr>
 			</table>
 			<br />
 			<input type="submit" value="Submit"

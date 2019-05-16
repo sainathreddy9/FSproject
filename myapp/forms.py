@@ -15,3 +15,10 @@ class SignupForm(forms.Form):
 class LoginForm(forms.Form):
     username = forms.CharField(max_length=120)
     password = forms.CharField()
+
+
+class add_fineForm(forms.Form):
+    vehicleNumber = forms.CharField()
+    location = forms.CharField()
+    violation = forms.CharField()
+    amount = forms.CharField()

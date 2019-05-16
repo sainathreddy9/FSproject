@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="669d4889-7571-43a9-b6b6-19bc7b845074" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/vehicles/7309.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/vehicles/7310.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/violation.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/templates/myapp/payment.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/static/images/Safety1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/static/images/Safety2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/static/images/Safety3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/static/images/base1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/static/images/logo2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/static/images/maintraffic1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/static/images/payment.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/static/images/speed_limits.jpg" />
+      <change beforePath="$PROJECT_DIR$/data/asignup.txt" afterPath="$PROJECT_DIR$/data/asignup.txt" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change beforePath="$PROJECT_DIR$/myapp/forms.py" afterPath="$PROJECT_DIR$/myapp/forms.py" />
+      <change beforePath="$PROJECT_DIR$/myapp/templates/myapp/add_fine.html" afterPath="$PROJECT_DIR$/myapp/templates/myapp/add_fine.html" />
+      <change beforePath="$PROJECT_DIR$/myapp/templates/myapp/ahome.html" afterPath="$PROJECT_DIR$/myapp/templates/myapp/ahome.html" />
+      <change beforePath="$PROJECT_DIR$/myapp/templates/myapp/alogin.html" afterPath="$PROJECT_DIR$/myapp/templates/myapp/alogin.html" />
+      <change beforePath="$PROJECT_DIR$/myapp/templates/myapp/calc_fine.html" afterPath="$PROJECT_DIR$/myapp/templates/myapp/calc_fine.html" />
+      <change beforePath="$PROJECT_DIR$/myapp/templates/myapp/chome.html" afterPath="$PROJECT_DIR$/myapp/templates/myapp/chome.html" />
+      <change beforePath="$PROJECT_DIR$/myapp/templates/myapp/clear_fine.html" afterPath="$PROJECT_DIR$/myapp/templates/myapp/clear_fine.html" />
+      <change beforePath="$PROJECT_DIR$/myapp/urls.py" afterPath="$PROJECT_DIR$/myapp/urls.py" />
+      <change beforePath="$PROJECT_DIR$/myapp/views.py" afterPath="$PROJECT_DIR$/myapp/views.py" />
+      <change beforePath="$PROJECT_DIR$/pages/static/images/Logo.png" afterPath="$PROJECT_DIR$/pages/static/images/Logo.png" />
+      <change beforePath="$PROJECT_DIR$/pages/templates/pages/about.html" afterPath="$PROJECT_DIR$/pages/templates/pages/about.html" />
+      <change beforePath="$PROJECT_DIR$/pages/templates/pages/layouts/footer.jsp" afterPath="$PROJECT_DIR$/pages/templates/pages/layouts/footer.jsp" />
+      <change beforePath="$PROJECT_DIR$/pages/templates/pages/layouts/form-body.jsp" afterPath="$PROJECT_DIR$/pages/templates/pages/layouts/form-body.jsp" />
+      <change beforePath="$PROJECT_DIR$/pages/templates/pages/layouts/home-body.jsp" afterPath="$PROJECT_DIR$/pages/templates/pages/layouts/home-body.jsp" />
+      <change beforePath="$PROJECT_DIR$/pages/templates/pages/layouts/menu.jsp" afterPath="$PROJECT_DIR$/pages/templates/pages/layouts/menu.jsp" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="37" />
+    <option name="width" value="1328" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FSproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FSproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="669d4889-7571-43a9-b6b6-19bc7b845074" name="Default" comment="" />
+      <created>1558020467723</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558020467723</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>
