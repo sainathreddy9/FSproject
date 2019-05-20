@@ -1,0 +1,12 @@
+{
+  "vehicles": [
+    {
+      "indexFile": "data/vehicles/7309.json",
+      "vehicleNumber": "7309"
+    },
+    {
+      "indexFile": "data/vehicles/7310.json",
+      "vehicleNumber": "7310"
+    }
+  ]
+}

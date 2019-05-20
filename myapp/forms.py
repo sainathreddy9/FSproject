@@ -22,3 +22,4 @@ class add_fineForm(forms.Form):
     location = forms.CharField()
     violation = forms.CharField()
     amount = forms.CharField()
+    fine_date = forms.CharField()

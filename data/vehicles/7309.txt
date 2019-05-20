@@ -1,1 +1,0 @@
-{"fines": [{"vehicleNumber": "7309", "location": "1", "violation": "1", "amount": "100"}, {"vehicleNumber": "7309", "location": "2", "violation": "3", "amount": "100"}, {"vehicleNumber": "7309", "location": "1", "violation": "1", "amount": "100"}]}

@@ -68,8 +68,8 @@
 
 		<div class="footSub">
 			<div class="lastMenu">
-				<p class="inlineClass">Powered By:</p>
-				<p class="inlineClass" style="color: orange; padding-right: 100px;">DJango</p>
+				<p class="inlineClass">Powered By :</p>
+				<p class="inlineClass" style="color: orange; padding-left: 0px; padding-right: 100px;">DJango</p>
 				<p class="inlineClass" style="padding-right: 100px;">©2014: All
 					Rights Reserved</p>
 				<a href="#" class="head1">Page Top</a>| <a href="#" class="head1">Feed
