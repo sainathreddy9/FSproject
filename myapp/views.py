@@ -4,7 +4,7 @@ from django.shortcuts import render
 import json
 import os
 
-from .forms import SignupForm
+from .forms import SignupForm, calc_fineForm
 from .forms import LoginForm
 from .forms import add_fineForm
 
@@ -16,6 +16,34 @@ def alogin(request, *args, **kwargs):
 
 def signup(request, *args, **kwargs):
     return render(request, "myapp/signUp.html")
+
+def calc_fineSubmit(request, metadata=None, **kwargs):
+    my_form = calc_fineForm()
+    vNumber = ''
+
+    if request.method == "POST":
+        my_form = calc_fineForm(request.POST)
+        print(my_form.is_valid())
+        if my_form.is_valid():
+            vNumber = request.POST.get('vehicleNumber')
+            result = my_form.cleaned_data
+            result = json.dumps(result)
+            resultsJson = json.loads(result)
+            ## Read Vehicle fines information
+            vehicleFileName = os.path.join('data/vehicles', '{}.json'.format(vNumber))
+            vehicleFileName = vehicleFileName.replace("\\", "/")
+            data = ''
+
+            exists = os.path.isfile(vehicleFileName)
+
+            if exists:
+                print(vehicleFileName, exists)
+                os.remove(vehicleFileName)
+                return render(request, "myapp/payment.html")
+            else:
+                return render(request, "myapp/calc_fine.html", {"message": "No Vehicle present."})
+        else:
+            return render(request, "myapp/calc_fine.html", {"message": "Enter Vehicle Number."})
 
 def add_fineSubmit(request, metadata=None, **kwargs):
     ## read the data from Form

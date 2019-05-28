@@ -17,4 +17,5 @@ urlpatterns = [
     path('payment/', views.payment, name='payment'),
     path('fine_look/', views.fine_look, name='fine_look'),
     path('calc/', views.calc_fine, name='calc_fine'),
+    path('calc_fineSubmit/', views.calc_fineSubmit, name='calc_fineSubmit'),
 ]

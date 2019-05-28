@@ -23,3 +23,7 @@ class add_fineForm(forms.Form):
     violation = forms.CharField()
     amount = forms.CharField()
     fine_date = forms.CharField()
+
+class calc_fineForm(forms.Form):
+    vehicleNumber = forms.CharField()
+    location = forms.CharField()
