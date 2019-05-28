@@ -18,4 +18,5 @@ urlpatterns = [
     path('fine_look/', views.fine_look, name='fine_look'),
     path('calc/', views.calc_fine, name='calc_fine'),
     path('calc_fineSubmit/', views.calc_fineSubmit, name='calc_fineSubmit'),
+    path('look_fineSubmit/', views.look_fineSubmit, name='look_fineSubmit'),
 ]

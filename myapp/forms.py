@@ -26,3 +26,6 @@ class add_fineForm(forms.Form):
 
 class calc_fineForm(forms.Form):
     vehicleNumber = forms.CharField()
+
+class look_fineForm(forms.Form):
+    vehicleNumber = forms.CharField()

@@ -4,7 +4,7 @@ from django.shortcuts import render
 import json
 import os
 
-from .forms import SignupForm, calc_fineForm
+from .forms import SignupForm, calc_fineForm, look_fineForm
 from .forms import LoginForm
 from .forms import add_fineForm
 
@@ -16,6 +16,35 @@ def alogin(request, *args, **kwargs):
 
 def signup(request, *args, **kwargs):
     return render(request, "myapp/signUp.html")
+
+def look_fineSubmit (request, *args, **kwargs):
+    my_form = look_fineForm()
+    vNumber = ''
+    print ('1111111111111111')
+    if request.method == "POST":
+        my_form = look_fineForm(request.POST)
+        print('22222222222222')
+        print(my_form.is_valid())
+        if my_form.is_valid():
+            print ('3333333333333')
+            vNumber = request.POST.get('vehicleNumber')
+            result = my_form.cleaned_data
+            result = json.dumps(result)
+            resultsJson = json.loads(result)
+            vehicleFileName = os.path.join('data/vehicles', '{}.json'.format(vNumber))
+            vehicleFileName = vehicleFileName.replace("\\", "/")
+            data = ''
+
+            exists = os.path.isfile(vehicleFileName)
+
+            if exists:
+                print(vehicleFileName, exists)
+                return render(request, "myapp/fine_look.html", {"message": "There is a fine present "})
+            else:
+                return render(request, "myapp/fine_look.html", {"message": "There is No Fine present."})
+        else:
+            return render(request, "myapp/fine_look.html", {"message": "Enter Vehicle Number."})
+
 
 def calc_fineSubmit(request, metadata=None, **kwargs):
     my_form = calc_fineForm()
