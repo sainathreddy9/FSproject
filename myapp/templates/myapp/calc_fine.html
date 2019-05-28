@@ -3,18 +3,7 @@
 {% load staticfiles %}
 {% block content %}
 {% include "pages/layouts/form-body.jsp" %}
-<script type = "text/javascript">
-         <!--
-            // Form validation code will come here.
-         //-->
-         function validate() {
-             if( document.getElementById("vNumber").value == "" ) {
-                alert( "Please provide Vehicle Number!" );
 
-                return false;
-             }
-         }
-</script>
 <center>
     <form name="calc_fineForm" action="/calc_fineSubmit/" method="post" onsubmit = "return(validate());">
         {% csrf_token %}
@@ -28,15 +17,7 @@
 
 				</tr>
 
-				<tr>
-					<td>Payment &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                     <td><select name="location">
-                        <option value="1">Full Payment</option>
-                        <option value="2">Half Payment</option>
-                    </select>
 
-                    </td>
-				</tr>
                 <tr>
                     <td><br></td>
                 </tr>

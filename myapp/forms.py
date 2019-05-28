@@ -26,4 +26,3 @@ class add_fineForm(forms.Form):
 
 class calc_fineForm(forms.Form):
     vehicleNumber = forms.CharField()
-    location = forms.CharField()
